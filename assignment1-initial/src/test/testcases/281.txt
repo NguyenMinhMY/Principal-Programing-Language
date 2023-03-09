@@ -1,0 +1,25 @@
+
+         canConstruct : function boolean (ransomNote : string, magazine : string) {
+             n : integer = length(ransomNote);
+             m : integer = length(magazine);
+             if (n > m) {
+                 return false;
+             }
+             count : array[26] of integer = {0};
+             for (i = 0, i < m, i + 1) {
+                 count[magazine[i] - "a"] = count[magazine[i] - "a"] + 1;
+             }
+             for (i = 0, i < n, i + 1) {
+                 count[ransomNote[i] - "a"] = count[ransomNote[i] - "a"] - 1;
+                 if (count[ransomNote[i] - "a"] < 0) {
+                     return false;
+                 }
+             }
+             return true;
+         }
+         main: function void () {
+             ransomNote = "aa";
+             magazine = "aab";
+             printBool(canConstruct(ransomNote, magazine));
+         }
+         

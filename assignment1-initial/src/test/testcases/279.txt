@@ -1,0 +1,4 @@
+foo: function float (x:float) {
+            {x = 2+3;}
+            {}        
+        }

@@ -1,0 +1,24 @@
+
+         topKFrequent : function array [10] of integer (nums : array[10] of integer, k : integer) {
+             map : array [10,10] of integer = {};
+             for (i = 0, i < length(nums), i + 1) {
+                 if (map[nums[i]] == null) {
+                     map[nums[i]] = 0;
+                 }
+                 map[nums[i]] = map[nums[i]] + 1;
+             }
+             result : array [10,10] of integer = {};
+             for (i = 0, i < length(map), i + 1) {
+                 if (map[i] != null) {
+                     result = result + i;
+                 }
+             }
+             sort(result, map);
+             return result;
+         }
+         main: function void () {
+             nums : array [10] of integer = {1, 1, 1, 2, 2, 3};
+             k = 2;
+             printString(topKFrequent(nums, k));
+         }
+         

@@ -1,0 +1,5 @@
+abc: function array[2] float (f: string) {if x == 5:
+	y = 2 * x
+else:
+	y = x - 1
+}

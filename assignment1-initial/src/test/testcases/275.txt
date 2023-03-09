@@ -1,0 +1,4 @@
+main: function float () {
+                a = 1_23.40E+156;
+            }
+        

@@ -1,0 +1,4 @@
+happy: float = if x == 5:
+	y = 2 * x
+else:
+	y = x - 1

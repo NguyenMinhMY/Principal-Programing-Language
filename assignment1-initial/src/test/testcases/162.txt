@@ -1,0 +1,4 @@
+int n,m;
+    cin >> n >> m;
+    integer arr[n,1];
+ 

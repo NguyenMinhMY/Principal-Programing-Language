@@ -1,0 +1,17 @@
+
+         toLowerCase : function string (str : string) {
+             result : string = "";
+             for (i = 0, i < length(str), i + 1) {
+                 if ((str[i] >= "A") && (str[i] <= "Z")) {
+                     result = result + chr(ord(str[i]) + 32);
+                 } else {
+                     result = result + str[i];
+                 }
+             }
+             return result;
+         }
+         main: function void () {
+             str = "Hello";
+             printString(toLowerCase(str));
+         }
+         

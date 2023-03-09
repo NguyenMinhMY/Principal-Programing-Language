@@ -1,0 +1,4 @@
+count: function integer () {
+            while (a-3>=12)
+                abc : integer = a+4342;
+        }

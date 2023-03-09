@@ -1,0 +1,3 @@
+// Day la line comment va 
+ /* Day la block comments 
+	*/

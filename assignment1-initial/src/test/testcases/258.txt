@@ -1,0 +1,4 @@
+foo23: function array[13] of boolean () {
+            if (i>10) i=i+1;
+            x = y+3;
+        }

@@ -1,0 +1,12 @@
+
+         isPowerOfTwo : function boolean (n : integer) {
+             if (n <= 0) {
+                 return false;
+             }
+             return (n * (n - 1)) == 0;
+         }
+         main: function void () {
+             n = 16;
+             printBool(isPowerOfTwo(n));
+         }
+         

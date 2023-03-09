@@ -1,0 +1,17 @@
+
+         readBinaryWatch : function array[25] of string (num : integer) {
+             result : array[230] of string = {};
+             for (h = 0, h < 12, h + 1) {
+                 for (m = 0, m < 60, m + 1) {
+                     if ((countBits(h) + countBits(m)) == num) {
+                         result = result + h + ":" + m;
+                     }
+                 }
+             }
+             return result;
+         }
+         main: function void () {
+             num = 1;
+             printString(readBinaryWatch(num));
+         }
+         

@@ -1,0 +1,18 @@
+
+         findPoisonedDuration : function integer (timeSeries : array[25] of integer, duration : integer) {
+             n : integer = length(timeSeries);
+             if (n == 0) {
+                 return 0;
+             }
+             result : integer = duration;
+             for (i = 1, i < n, i + 1) {
+                 result = result + min(duration, timeSeries[i] - timeSeries[i - 1]);
+             }
+             return result;
+         }
+         main: function void () {
+             timeSeries = {1, 4};
+             duration = 2;
+             printInt(findPoisonedDuration(timeSeries, duration));
+         }
+         

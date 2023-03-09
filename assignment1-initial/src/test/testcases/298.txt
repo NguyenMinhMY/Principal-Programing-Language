@@ -1,0 +1,15 @@
+
+         fixedPoint : function integer (a: array[5] of integer) {
+             n : integer = length(a);
+             for (i = 0, i < n, i + 1) {
+                 if (a[i] == i) {
+                     return i;
+                 }
+             }
+             return -1;
+         }
+         main: function void () {
+             a : array[5] of integer = {-10, -5, 0, 3, 7};
+             printInt(fixedPoint(a));
+         }
+         

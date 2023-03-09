@@ -1,0 +1,20 @@
+
+         wordPattern : function boolean (pattern : string, str : string) {
+             n : integer = length(pattern);
+             m : integer = length(str);
+             if (n != m) {
+                 return false;
+             }
+             for (i = 0, i < n, i + 1) {
+                 if (pattern[i] != str[i]) {
+                     return false;
+                 }
+             }
+             return true;
+         }
+         main: function void () {
+             pattern = "abba";
+             str = "dog cat cat dog";
+             printBool(wordPattern(pattern, str));
+         }
+         

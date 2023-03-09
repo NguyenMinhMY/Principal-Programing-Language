@@ -1,0 +1,24 @@
+
+         highFive : function array [10] of integer (items : array[10,10] of integer) {
+             result : array[10] of integer = {};
+             map : array [10,10] of integer = {};
+             for (i = 0, i < length(items), i + 1) {
+                 id = items[i,0];
+                 score = items[i,1];
+                 if (map[id] == null) {
+                     map[id] = {};
+                 }
+                 map[id] = map[id] + score;
+             }
+             for (i = 0, i < length(map), i + 1) {
+                 if (map[i] != null) {
+                     result = result + average(map[i]);
+                 }
+             }
+             return result;
+         }
+         main: function void () {
+             items : array [10,10] of integer = {{1, 91}, {1, 92}, {2, 93}, {2, 97}, {1, 60}, {2, 77}, {1, 65}, {1, 87}, {1, 100}, {2, 100}, {2, 76}};
+             printString(highFive(items));
+         }
+         

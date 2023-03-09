@@ -1,0 +1,6 @@
+foo: function float () {
+            foo(2);
+            return expr;
+        }
+
+        c == expr;

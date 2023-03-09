@@ -1,0 +1,7 @@
+
+            /* main function */
+            factor_ : integer = 16.0;
+            main_: function float () {
+                a_ = "He asked me: \"Where is John?\"";
+            }
+        

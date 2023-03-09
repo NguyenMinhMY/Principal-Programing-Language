@@ -1,0 +1,8 @@
+
+            /* comment function */
+            ac : float string integer = 12.0e-10;
+            str : auto = "abc";
+            main: function float () {
+                a = true || false;
+            }
+        

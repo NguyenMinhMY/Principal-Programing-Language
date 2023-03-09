@@ -1,0 +1,10 @@
+
+            hai : string = "hello world";
+            main: function auto(){
+                do{
+                    return abc;
+                }while(n == 0);
+                var = "Chung ta la lu quy" :: abc;
+                for(x = 2,x == 2,  x+1) continue;
+            }
+        

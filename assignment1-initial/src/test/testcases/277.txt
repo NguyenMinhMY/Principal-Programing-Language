@@ -1,0 +1,12 @@
+
+            abc : auto = "hello world";
+            main: function void(){
+                do{
+                    return false;
+                }while(n == 0);
+                var = "ATHFT" :: var;
+                for(x=3,x==4,x+8) break;
+                if ( i < 1) return 1 + foo(2);
+                test();
+            }
+        

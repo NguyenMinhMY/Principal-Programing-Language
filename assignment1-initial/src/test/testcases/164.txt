@@ -1,0 +1,1 @@
+variable: fl = 0.12e123; Var: a[[fl][0x123F,0O256]];

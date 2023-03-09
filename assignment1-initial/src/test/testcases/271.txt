@@ -1,0 +1,5 @@
+ // this is comment
+                // declaration
+                x: float = 6.7;
+                sum: function void() {}
+                

@@ -1,0 +1,7 @@
+
+            func_: function integer () {
+                if ("a") 
+                    while("b")
+                        return 345;
+            }
+        

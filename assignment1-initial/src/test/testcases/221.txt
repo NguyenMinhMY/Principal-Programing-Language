@@ -1,0 +1,2 @@
+x: integer = while x < 10:
+	x = x + 1

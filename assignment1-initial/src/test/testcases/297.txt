@@ -1,0 +1,10 @@
+
+         rotateString : function boolean (A : string, B : string) {
+             return (length(A) == length(B)) && contains(B,(A + A));
+         }
+         main: function void () {
+             A = "abcde";
+             B = "cdeab";
+             printBool(rotateString(A, B));
+         }
+         

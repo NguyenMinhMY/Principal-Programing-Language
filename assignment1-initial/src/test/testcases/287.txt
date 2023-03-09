@@ -1,0 +1,14 @@
+
+         hammingWeight : function integer (n : integer) {
+             result : integer = 0;
+             while (n != 0) {
+                 result = result + 1;
+                 n = n - (n - 1);
+             }
+             return result;
+         }
+         main: function void () {
+             n = 11;
+             printInt(hammingWeight(n));
+         }
+         

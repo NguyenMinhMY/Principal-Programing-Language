@@ -1,0 +1,12 @@
+
+         addDigits : function integer (num : integer) {
+             while (num >= 10) {
+                 num = num / 10 + num % 10;
+             }
+             return num;
+         }
+         main: function void () {
+             num = 38;
+             printInt(addDigits(num));
+         }
+         

@@ -1,0 +1,11 @@
+
+            varr : string = "hello world";
+            main: function boolean(){
+                do{
+                    return false;
+                }while(n == 0);
+                var = "Lau Dai Tinh Ai" :: var;
+                for(,,) {}
+                test(123, 5+2+5+5);
+            }
+        
