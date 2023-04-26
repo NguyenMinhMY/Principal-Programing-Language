@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./assignment1-initial/target",
+        "./initial/src/main/bkool/utils",
+        "./initial/src/test"
+    ]
+}

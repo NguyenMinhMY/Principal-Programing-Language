@@ -1,0 +1,13 @@
+
+      
+      sumNumbers: function integer() {
+            sum: integer = 0;
+            i: integer = 1;
+            n: integer= 20;
+            do {
+                sum = sum + i;
+                i = i + 1;
+            } while (i <= n);
+            return sum;
+        }
+        

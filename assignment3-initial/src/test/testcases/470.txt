@@ -1,0 +1,7 @@
+swap: function void (arr: array[5] of integer, i: integer, j: integer) {
+            temp: integer;
+            temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+        }
+        

@@ -1,0 +1,7 @@
+
+      
+        foo: function void() {
+            x: integer = 1;
+            y: float = 2.5;
+            return;
+        }

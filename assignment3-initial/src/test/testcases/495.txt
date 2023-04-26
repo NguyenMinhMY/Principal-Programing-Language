@@ -1,0 +1,10 @@
+
+        x : auto = 2 + 3.4;
+        main : function void() {
+            {
+                x : string = "a";
+                printString(x);
+            }
+            printFloat(x);
+        }
+        

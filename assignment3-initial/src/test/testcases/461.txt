@@ -1,0 +1,6 @@
+main: function void (){
+                    while(x<9){
+                        a = a + 1;
+                        _ = !x || (y == 0) && (z > 12.5E-6);
+                    }
+                }

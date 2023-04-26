@@ -1,0 +1,12 @@
+
+        foo : function auto() {
+            return 1;
+        }
+        goo : function auto() {
+            return "2";
+        }
+        main : function void() {
+            a : float = foo() + 2.3;
+            b : string = goo() :: "a";
+        }
+        

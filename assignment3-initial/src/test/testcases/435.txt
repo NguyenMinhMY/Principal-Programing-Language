@@ -1,0 +1,14 @@
+
+        gcd: function integer(a: integer, b: integer) {
+             r: integer = a % b;
+            while (b != 0) {
+             
+                a = b;
+                b = r;
+            }
+                
+            return a;
+        }
+      
+ 
+        

@@ -1,0 +1,18 @@
+
+      
+      foo1: function integer (a: integer, b: integer) inherit foo
+    {
+        super(2,3);
+        if (a == 1) return 1;
+        a = 1;
+        b= a+b;
+        a: float;
+        return b;
+    } 
+    foo: function void (a: integer, b: integer)
+    {
+        c: integer;
+        c = foo1(3, 4);
+    }
+ 
+        

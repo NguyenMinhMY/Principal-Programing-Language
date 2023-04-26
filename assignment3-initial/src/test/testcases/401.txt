@@ -1,0 +1,6 @@
+ a: integer = 1;
+                    b: auto = c + 1;
+                    main: function void () {
+
+                    }
+                

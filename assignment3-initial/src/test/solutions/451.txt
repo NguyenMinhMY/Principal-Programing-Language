@@ -1,0 +1,1 @@
+Type mismatch in statement: CallStmt(func1, Id(y), Id(x))

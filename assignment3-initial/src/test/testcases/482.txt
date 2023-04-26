@@ -1,0 +1,8 @@
+
+        func: function integer(a: integer) {
+            if (a < 13) return 16;
+            else a = a + 1;
+            a: float = 12; 
+            return 10;
+        }
+        

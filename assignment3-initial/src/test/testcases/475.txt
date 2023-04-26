@@ -1,0 +1,5 @@
+
+        a: integer = 134;
+        foo: function void (b: integer) inherit a {}
+        a: function string (inherit c: string) {}
+        

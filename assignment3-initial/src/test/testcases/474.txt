@@ -1,0 +1,8 @@
+main:function void(){
+            i:integer;
+            for (i=0, i < 10, i + 1) {
+                writeln(i);
+                if (i==5) continue;
+            }
+        }
+        

@@ -1,0 +1,17 @@
+main: function void (){
+           {
+                {
+                    {
+                        {
+                            {
+                                t:integer;
+                                {
+                                    return 0;
+                                }
+                                a = 1+2;
+                            }
+                        }
+                    }
+                }
+            }
+        }

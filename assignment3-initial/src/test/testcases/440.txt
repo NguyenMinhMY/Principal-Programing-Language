@@ -1,0 +1,16 @@
+
+      
+      findMin: function integer(a: array[5] of integer) {
+            min: integer = a[0];
+            i: float; 
+            for (i=1,i<10,i+1)
+             {
+             if (a[i] < min) 
+                    min = a[i];
+             
+             } 
+                
+            return min;
+        }
+ 
+        

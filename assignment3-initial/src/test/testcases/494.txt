@@ -1,0 +1,17 @@
+
+        foo : function auto() {
+            if (true) {
+                return 1;
+            }
+            else return 2;
+            return 1;
+            return "asfasF";
+        }
+        goo : function auto() {
+            return "2";
+        }
+        main : function void() {
+            a : float = foo() + 2.3;
+            b : string = goo() :: "a";
+        }
+        

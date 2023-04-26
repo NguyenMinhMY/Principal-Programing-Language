@@ -1,0 +1,15 @@
+
+        foo : function string() {
+            if (true) {
+                return goo();
+            }
+            else return "b";
+            return "a";
+        }
+        main : function string() {
+            printString(goo());
+        }
+        goo : function auto() {
+            return 2;
+        }
+        

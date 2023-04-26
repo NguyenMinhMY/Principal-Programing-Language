@@ -1,0 +1,14 @@
+
+        main: function void(){
+            //a:integer;
+        }
+        func: function void(a:array [1] of integer,arr: string){
+            return 0;
+        }
+        test: function integer(input: array [10] of float,a:integer,c: array [10] of string,d:boolean){
+            a, b, c:integer;
+            // Comment
+            // int c;
+            return a;
+        }
+        

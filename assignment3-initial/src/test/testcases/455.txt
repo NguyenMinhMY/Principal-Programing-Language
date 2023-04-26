@@ -1,0 +1,15 @@
+
+      
+      func1: function void(a: integer, b: float) {
+            if (a < b) {
+                return;
+            } else {
+                b = a;
+            }
+        }
+        func2: function void() {
+             x: integer = 1;
+            func1(x);
+        }
+ 
+        

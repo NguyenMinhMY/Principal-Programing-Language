@@ -1,0 +1,18 @@
+
+        a: float;
+        main: function integer (n: integer) {
+            a: integer;
+            printInteger(a);
+            {
+                a: boolean;
+                printBoolean(a);
+                {
+                    a: string;
+                    printString(a);
+                    {
+                        printString(a);
+                    }
+                }
+            }
+        }
+        

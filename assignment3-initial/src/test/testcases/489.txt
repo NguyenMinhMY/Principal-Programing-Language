@@ -1,0 +1,17 @@
+
+        rotate : function void (nums : array[7] of integer, k : integer) {
+            n : integer = 7;
+            k = k % n;
+            if (k == 0) {
+                return;
+            }
+            reverse(nums, 0, n - 1);
+            reverse(nums, 0, k - 1);
+            reverse(nums, k, n - 1);
+        }
+        main: function void () {
+            nums : array [7] of integer = {1, 2, 3, 4, 5, 6, 7};
+            k : integer = 3;
+            rotate(nums, k);
+        }
+        

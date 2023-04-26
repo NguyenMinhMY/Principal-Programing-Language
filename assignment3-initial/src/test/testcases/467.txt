@@ -1,0 +1,7 @@
+main: function void (){
+                    {a, b:integer = 2,3;
+                        {
+                            c, d:integer = 2,3;
+                        }
+                    }
+                }

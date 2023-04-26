@@ -1,0 +1,18 @@
+
+      
+       isPrime: function boolean(n: integer) {
+            if (n <= 1) 
+                return false;
+            else
+                  for (i=1, i<10,i + 1)
+             {
+                for (j=1, j<10,j + 1)
+                    {
+                    write(i*j + " ");
+                    }
+             }
+            return true;
+        }
+    
+ 
+        

@@ -1,0 +1,7 @@
+
+        func: function integer() {
+            a: integer = 12;
+            return 3;
+            a: float = 14;
+        }
+        

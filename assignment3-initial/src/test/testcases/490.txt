@@ -1,0 +1,8 @@
+
+        main : function void() {
+            do {
+                printString("Hello");
+            }
+            while (true);
+        }
+        

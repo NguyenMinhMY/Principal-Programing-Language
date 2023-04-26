@@ -1,0 +1,12 @@
+
+        main : function void() {
+            a : integer = foo() + 2;
+            b : float = goo() + 2.3;
+        }
+        foo : function auto() {
+            return 1;
+        }
+        goo : function auto() {
+            return "2";
+        }
+        

@@ -1,0 +1,8 @@
+
+        foo : function auto() {}
+        main : function string() {
+            printString("ab");
+            return foo();
+            x: string = foo();
+        }
+        

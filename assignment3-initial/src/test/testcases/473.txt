@@ -1,0 +1,6 @@
+main:function void(){
+            a : integer;
+            a=5;
+            writeln(a / 2);
+        }
+        

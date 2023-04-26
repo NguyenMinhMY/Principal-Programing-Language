@@ -1,0 +1,5 @@
+swap: function void (a: integer,b:integer){
+                temp: integer =a;
+                a=b;
+                b=temp;
+            }

@@ -1,0 +1,30 @@
+
+      
+       findMax: function integer(a: array[5] of integer) {
+           
+            max: integer = a[0];
+            i: integer;
+            for (i=1, i<= 4, i+1)
+            {
+                z: integer = 0;
+                z= 10;
+
+
+
+                if (a[i] > max) 
+                {
+                    
+                    return;
+                    
+                    
+                }
+                    max = a[i];
+               
+                
+            }
+            return max;
+                
+            
+        }
+ 
+        
